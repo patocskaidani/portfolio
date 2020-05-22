@@ -29,3 +29,8 @@ html,body {
 #tartalom {
 	float: left;
 }
+
+#felirat {
+	vertical-align: middle;
+	size: 3em;
+}
