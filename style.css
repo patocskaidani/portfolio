@@ -1,6 +1,6 @@
 html,body {
 	background-color:#91A1DF;
-	
+	font-size: 20px;
 }
 .kep {
 	float:left;
@@ -21,17 +21,62 @@ html,body {
 }
 
 #menu {
-	width: 200px;
+	width: 180px;
 	float: left;
+	text-decoration: none;
+	font-size: 24px;
+	text-align:middle;
+	color: white;
 }
-#menu ul {
+#menu>ul {
 	display: block;
-	height: 200px;
+	width: 180px;
+	padding: 0px;
 }
-#menu ul li {
+#menu>ul>li {
 	display: block;
-	height: 200px;
-	width: 20px;
+	width: 200px;
+	background-color:#475AA5;
+	padding: 0px;
+}
+#menu>ul>li:hover {
+	background-color:#91A1DF;
+}
+#menu>ul>ul {
+	padding: 0px;
+}
+
+#menu>ul>ul>li {
+	display: block;
+	width: 200px;
+	background-color:#667FE2;
+	padding: 0px;
+}
+#menu>ul>ul>li:hover {
+	background-color:#91A1DF;
+}
+#menu>ul>ul>li a {
+	padding-left: 30px;
+	width:160px;
+}
+#menu a {
+	padding: 10px;
+	width:180px;
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+}
+#menu a:hover {
+	text-decoration: none;
+	color: white;
+}
+#menu>ul>li.menu_nolink {
+	padding: 10px;
+	width: 180px;
+}
+
+#menu>ul>li.menu_nolink:hover {
+	background-color: #475AA5;
 }
 
 
@@ -40,7 +85,6 @@ html,body {
 }
 
 #felirat {
-	vertical-align: middle;
 	text-align: center;
 	font-size: 50px;
 	padding: 75px;
