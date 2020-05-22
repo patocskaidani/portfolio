@@ -32,5 +32,9 @@ html,body {
 
 #felirat {
 	vertical-align: middle;
+	text-align: center;
+}
+
+.portfolio_felirat {
 	size: 3em;
 }
