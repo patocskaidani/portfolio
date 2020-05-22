@@ -4,7 +4,6 @@ html,body {
 }
 .kep {
 	float:left;
-	float:top;
 	padding: 10px;
 }
 .feher {
@@ -34,8 +33,6 @@ html,body {
 #felirat {
 	vertical-align: middle;
 	text-align: center;
-}
-
-.portfolio_felirat {
-	size: 3em;
+	font-size: 50px;
+	padding: 75px;
 }
