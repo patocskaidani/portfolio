@@ -5,6 +5,7 @@ html,body {
 .kep {
 	float:left;
 	float:top;
+	padding: 10px;
 }
 .feher {
 	color:white;
