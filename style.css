@@ -10,14 +10,10 @@ html,body {
 	color:white;
 }
 .feketehatter {
-	
 	background-color:#475AA5;
 }
-.balra {
-	float:left;
-}
 .kozepre {
-	float:center;
+	text-align: center;
 }
 
 #fejlec {
@@ -26,8 +22,10 @@ html,body {
 
 #menu {
 	width: 200px;
+	float: left;
 }
 
 #tartalom {
-
+	float: left;
+	width: auto;
 }
